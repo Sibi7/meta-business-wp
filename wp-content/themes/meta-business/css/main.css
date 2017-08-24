@@ -1,0 +1,85 @@
+ /*модальное окно*/
+ .overlay {
+     background: #000;
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     z-index: 1000;
+     opacity: .5;
+ }
+ .visible {
+     position: fixed;
+     left: 50%;
+     top: 50%;
+     margin-top: -200px;
+     overflow: hidden;
+     z-index: 2000;
+     width: 600px;
+     padding: 0px;
+     margin-left: -300px;
+     background: #118ac1;
+ }
+ .visible h2{
+     text-align: center;
+     color: #fff;
+ }
+ #win a {
+     display: block;
+     float: right;
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     line-height: 20px;
+     background: transparent;
+     cursor: pointer;
+     color: #fff;
+ }
+ .content{
+     padding: 0 40px;
+     display: block;
+     position: relative;
+     float: left;
+     width: 100%;
+     box-sizing: border-box;
+ }
+ .content h2{
+     text-align: center;
+
+ }
+ .content input{
+     display: block;
+     width: 100%;
+     height: 46px;
+     border: 1px solid #fff;
+     box-sizing: border-box;
+     background: transparent;
+     color: #fff;
+     font-size: 16px;
+     font-weight: 400;
+     float: left;
+     position: relative;
+     padding-left: 15px;
+     margin-bottom: 30px;
+
+ }
+ .content input[type='submit']{
+     display: block;
+     position: relative;
+     float: left;
+     width: 100%;
+     height: 54px;
+     background-color: #fff;
+     z-index: 5;
+     border: none;
+     cursor: pointer;
+     margin: 0 0 30px 0;
+     color: #155877;
+     font-size: 18px;
+     font-weight: 400;
+ }
+ .cost-training__item p {
+     color: #fff!important;
+ }
+ /*end модальное окно*/
